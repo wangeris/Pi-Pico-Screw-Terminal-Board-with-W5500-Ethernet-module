@@ -1,19 +1,19 @@
 # Raspberry Pi Pico Screw Terminal Board with W5500 Ethernet module
 Some notes:
 
-This is a repo for my personal Raspberry Pi pico project board which has a goal to make an easily connectable simple smart home control board connected via Ethernet.
+This is a repo for my personal Raspberry Pi Pico board project which has a goal to make an easily connectable simple smart home control board connected to networks via Ethernet.
 
-I have no formal electrical engineering training, just learning as I go, so sorry in advance for any mistakes made.
+I have no formal electrical engineering training, just learning as I go, so sorry in advance for any mistakes made/make.
 
 ![soldered-pi-pico-w5500-ethernet-board-with-screw-therminals](https://github.com/wangeris/Pi-Pico-Screw-Terminal-Board-with-W5500-Ethernet-module/blob/main/Images/real1.JPG?raw=true)
 
 # Why I decided to make this.
 
-I have a prototype system based on an Arduino Uno and W5500 Ethernet board connected up using pigtais, that's been used in my garrage as a security and control center integrated via MQTT with Home Assistant. My goal for this was to clean up the whole thing and make it easier to connect up new sensors as it's a pain to solder up pigtails on wires each time. Also decided to upgrade to Pi Pico as it's much more powerfull and cheaper than Arduino at this point.
+I have a prototype system based on an Arduino Uno and W5500 Ethernet board connected up using pigtais, that's been used in my garrage as a security and control center integrated via MQTT with Home Assistant. My goal for this was to clean up the whole thing and make it easier to connect up new sensors as it's a pain to solder up pigtails on wires each time. Also decided to upgrade to Pi Pico as it's much more powerfull, cheaper, smaller and more power efficient than Arduino Uno.
 
-I decided to go with Pi Pico over an ESP32 based board, because Pi Picos are standartized, so not as confusing to source, I also expect the software support to be much better based on Raspbery Pi SBC support in the past.
+I decided to go with Pi Pico over an ESP32 based board, because Pi Pico pins are standartized, so not as confusing to source, I also expect the software support to be much better based on Raspbery Pi SBC support in the past.
 
-I went with W5500 for connection/internet just as a personal preference for stability and security over WiFi, but Pi Pico W could be used with this as well.
+I went with W5500 for connection/internet as a personal preference for security and stability over WiFi or Bluetooth, as I am using this primarily as a security system with magnetic door sensors. But Pi Pico W could be used with this as well.
 
 # Technical side
 Most pins are labeled on the PCB itself.
