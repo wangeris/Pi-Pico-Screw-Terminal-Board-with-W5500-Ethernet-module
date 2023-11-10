@@ -1,7 +1,7 @@
 # Raspberry Pi Pico Screw Terminal Board with W5500 Ethernet module
 Some notes:
 
-This is a repo for my personal Raspberry Pi Pico board project which has a goal to make an easily connectable simple smart home control board connected to networks via Ethernet.
+This is a repo for my personal Raspberry Pi Pico board project which has a goal to make an easily connectable simple smart home control board connected to network via Ethernet.
 
 I have no formal electrical engineering training, just learning as I go, so sorry in advance for any mistakes made/make.
 
