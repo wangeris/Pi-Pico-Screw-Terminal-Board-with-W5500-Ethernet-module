@@ -33,4 +33,4 @@ PCB is 2-layer and is designed using EasyEDA<br>
 
 Gerber file is in the Hardware folder.
 
-![pi-pico-w5500-screw-pcb-gerber-design](https://github.com/wangeris/Pi-Pico-Screw-Terminal-Board-with-W5500-Ethernet-module/blob/main/Images/pcb.JPG?raw=true)
+![pi-pico-w5500-screw-pcb-gerber-design](https://github.com/wangeris/Pi-Pico-Screw-Terminal-Board-with-W5500-Ethernet-module/blob/main/Images/pcb.PNG?raw=true)
