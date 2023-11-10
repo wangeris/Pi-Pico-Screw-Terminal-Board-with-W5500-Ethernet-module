@@ -13,7 +13,7 @@ I have a prototype system based on an Arduino Uno and W5500 Ethernet board conne
 
 I decided to go with Pi Pico over an ESP32 based board, because Pi Pico pins are standartized, so not as confusing to source, I also expect the software support to be much better based on Raspbery Pi SBC support in the past.
 
-I went with W5500 for connection/internet as a personal preference for security and stability over WiFi or Bluetooth, as I am using this primarily as a security system with magnetic door sensors. But Pi Pico W could be used with this as well.
+I went with W5500 for connection/internet as a personal preference for security and stability over WiFi or Bluetooth, as I am using this primarily as a security system with magnetic door sensors. Pi Pico W most likely could be used with this as well.
 
 # Technical side
 Most pins are labeled on the PCB itself.
