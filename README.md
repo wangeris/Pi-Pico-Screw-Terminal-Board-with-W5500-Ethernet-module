@@ -7,7 +7,7 @@ I have no formal electrical engineering training, just learning as I go, so sorr
 
 ![soldered-pi-pico-w5500-ethernet-board-with-screw-therminals](https://github.com/wangeris/Pi-Pico-Screw-Terminal-Board-with-W5500-Ethernet-module/blob/main/Images/real1.JPG?raw=true)
 
-# Why I decided to make this.
+## Why I decided to make this.
 
 I have a prototype system based on an Arduino Uno and W5500 Ethernet board connected up using pigtais, that's been used in my garrage as a security and control center integrated via MQTT with Home Assistant. My goal for this was to clean up the whole thing and make it easier to connect up new sensors as it's a pain to solder up pigtails on wires each time. Also decided to upgrade to Pi Pico as it's much more powerfull, cheaper, smaller and more power efficient than Arduino Uno.
 
@@ -15,7 +15,7 @@ I decided to go with Pi Pico over an ESP32 based board, because Pi Pico pins are
 
 I went with W5500 for connection/internet as a personal preference for security and stability over WiFi or Bluetooth, as I am using this primarily as a security system with magnetic door sensors. Pi Pico W most likely could be used with this as well.
 
-# Technical side
+## Technical side
 Most pins are labeled on the PCB itself.
 
 ![pi-pico-w5500-connection](https://github.com/wangeris/Pi-Pico-Screw-Terminal-Board-with-W5500-Ethernet-module/blob/main/Images/raspberry_w5500.PNG?raw=true)
